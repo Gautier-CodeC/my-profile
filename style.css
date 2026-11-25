@@ -1,0 +1,88 @@
+/* Page */
+body {
+    background-color: #eef2f6;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #1f3a5f;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Conteneur au centre */
+.container {
+    width: 700px;
+    margin: 50px auto;
+}
+
+/* Classes réutilisables */
+.card-white {
+    background: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-circle {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.btn-red {
+    display: inline-block;
+    background-color: #e4003a;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn-red:hover {
+    background-color: #b8002f;
+}
+
+/* Liste des réseaux sociaux à l'horizontale */
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline > li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+.list-inline a {
+    color: #1f3a5f;
+    text-decoration: none;
+}
+
+.list-inline a:hover {
+    color: #e4003a;
+}
+
+/* Petits écrans */
+@media (max-width: 750px) {
+    .container {
+        width: 90%;
+    }
+}
